@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>STM - Investimentos</title>
+
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // Global InAppBrowser reference
+    var iabRef = null;
+
+    connectionStatus = navigator.onLine ? 'online' : 'offline';
+   
+    
+    // device APIs are available
+    function onDeviceReady() {
+    	 alert(connectionStatus);
+         if(connectionStatus == 'online'){
+	    	 iabRef = window.open('http://sistema.stminvestimentos.com.br/login_investidores.jsp', '_blank', 'location=no');
+	     }else{
+	    	 alert('Necessario conexão com a internet'); 
+	    	 navigator.app.exitApp();
+         }
+    }
+    
+   
+    
+
+    </script>
+  </head>
+  <body>
+
+
+  </body>
+</html>
