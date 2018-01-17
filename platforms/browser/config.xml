@@ -6,9 +6,9 @@
     <feature name="Device">
         <param name="browser-package" value="Device" />
     </feature>
-    <name>stmmobile</name>
+    <name>STM</name>
     <description>
-        Solução mobile para empres STM Investimentos.
+        Solução mobile da empresa STM Investimentos.
     </description>
     <author email="suporte@r1ti.com.br" href="http://r1ti.com.br">
         R1Ti Team

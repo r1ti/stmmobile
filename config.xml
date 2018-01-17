@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.r1ti.stmmobile" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>stmmobile</name>
+    <name>STM</name><!-- nome aplicativo -->
     <description>
-        Solução mobile para empres STM Investimentos.
+        Solução mobile da empresa STM Investimentos.
     </description>
     <author email="suporte@r1ti.com.br" href="http://r1ti.com.br">
         R1Ti Team
