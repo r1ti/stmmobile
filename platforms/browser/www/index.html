@@ -5,17 +5,11 @@
 
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
     <script type="text/javascript" charset="utf-8">
-
     // Wait for device API libraries to load
-    //
     document.addEventListener("deviceready", onDeviceReady, false);
-
     // Global InAppBrowser reference
     var iabRef = null;
-
     connectionStatus = navigator.onLine ? 'online' : 'offline';
-   
-    
     // device APIs are available
     function onDeviceReady() {
     	 //alert(connectionStatus);
@@ -26,10 +20,6 @@
 	    	 navigator.app.exitApp();
          }
     }
-    
-   
-    
-
     </script>
   </head>
   <body>
